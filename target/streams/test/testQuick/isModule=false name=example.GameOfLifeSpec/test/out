@@ -1,0 +1,30 @@
+[0m[[0minfo[0m] [0m[32mGameOfLifeSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mA Cell[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be dead by default[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be able to be alive[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be able to die[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be able to resucitate[0m[0m
+[0m[[0minfo[0m] [0m[32m- should have an address[0m[0m
+[0m[[0minfo[0m] [0m[32mThe World[0m[0m
+[0m[[0minfo[0m] [0m[32m- should contain cells[0m[0m
+[0m[[0minfo[0m] [0m[32m- should contain a size[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be able to initialise and set the right number of cells given a size[0m[0m
+[0m[[0minfo[0m] [0m[32mChecking my neighbors[0m[0m
+[0m[[0minfo[0m] [0m[32m- should say that I have eight alive neighbors when I am in the middle of a 3x3[0m[0m
+[0m[[0minfo[0m] [0m[32m- should say that I have three alive neighbors when I am in an edge[0m[0m
+[0m[[0minfo[0m] [0m[32m- should say that I have no neighbors if all of them are dead[0m[0m
+[0m[[0minfo[0m] [0m[32mRules of Live[0m[0m
+[0m[[0minfo[0m] [0m[32m- should kill a cell with fewer than two alive neighbors[0m[0m
+[0m[[0minfo[0m] [0m[32m- should kill a cell with more than three alive neighbors[0m[0m
+[0m[[0minfo[0m] [0m[32m- should leave cell alive if 2 alive neighbors[0m[0m
+[0m[[0minfo[0m] [0m[32m- should leave cell alive if 3 alive neighbors[0m[0m
+[0m[[0minfo[0m] [0m[32m- should bring dead cell back to live if there is exactly 3 alive neighbors[0m[0m
+[0m[[0minfo[0m] [0m[32mAddress[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return (0,0) when you are the first element[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return (1,0) when you are at the second element[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return (3,0) when you are in the middle of first row in 6 size[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return (5,0) when you are in the edge of first row in 6 size[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return (0,1) when on first element of second row[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return (0,5) when on last row on size 6[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return (2,2) when on bottom right edge of a size 3[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return (5,5) when on bottom right edge of a size 6[0m[0m

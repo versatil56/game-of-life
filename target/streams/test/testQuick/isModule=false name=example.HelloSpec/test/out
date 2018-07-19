@@ -1,0 +1,8 @@
+[0m[[0minfo[0m] [0m[32mHelloSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mA Cell[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be alive by default[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be dead if we initialise it to dead[0m[0m
+[0m[[0minfo[0m] [0m[32m- should have a home[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be aware of its neighbours[0m[0m
+[0m[[0minfo[0m] [0m[32mThe World[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be populated with cells[0m[0m
